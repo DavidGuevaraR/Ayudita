@@ -1,0 +1,6 @@
+/* ESte archivo es el punto de entrada
+hacia los demas documentos scss */
+@forward 'variables';
+@forward 'mixins';
+@forward 'normalize';
+@forward 'globals';

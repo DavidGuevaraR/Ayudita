@@ -1,0 +1,48 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+#footer-links {
+    background-color: v.$dark;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;
+    
+    a {
+        padding: 1.25rem;
+        font-size: 2em;
+        color: v.$light;
+        transition: 0.3s;
+
+        @include m.maxTablet {
+            font-size: 1.5em;
+        }
+    }
+}
+
+#social-media {
+    background-color: v.$dark;
+    width: 100%;
+    text-align: right;
+    padding: 2rem;
+    margin-top: auto;
+
+    a {
+        padding: 1.25rem;
+        font-size: 2em;
+        color: v.$light;
+        transition: 0.3s;
+
+        @include m.maxTablet {
+            font-size: 1.5em;
+        }
+    }
+}
+#footer-img {
+    position: relative;
+    height: 33px;
+    @include m.maxTablet {
+        font-size: 1.5em;
+    }
+    
+}
